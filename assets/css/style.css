@@ -76,6 +76,7 @@ h1 {
     width:150px;
     height:100px;
 }
+/* Background colors */
 .iusm-bg-1 {
     background-color: #E6E6E6;
 }
@@ -91,6 +92,11 @@ h1 {
 .iusm-bg-4 {
     background-color: #EF8618;
 }
+
+/* font colors */
+.iusm-fc-blue {
+    color: #0B75A4;
+} 
 
 .iusm-divider img{
     height: 30px;
@@ -129,11 +135,19 @@ text-align:right;
     font-size: 1.3rem;
 }
 
+/* CARDS Custom Styles */
 .iusm-cards .col .card{
     border-radius: 25px;
+    transition: 0.3s ease-in-out;
 }
 .iusm-cards .col .card img{
     border-radius: 25px 25px 0 0;
+    
+}
+
+.iusm-cards .col .card:hover {
+    transform: scale(1.05, 1.05);
+    transition: 0.3s ease-in-out;
 }
 
 .iusm-testimonial button, .iusm-video-home button{
