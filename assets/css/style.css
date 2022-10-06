@@ -46,12 +46,12 @@ h1 {
 }
 
 .carousel-control-prev-icon {
-	background-image: url("assets/csv/arrow-prev.svg");
+	background-image: url("../csv/arrow-prev.svg");
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
 }
 
 .carousel-control-next-icon {
-    background-image: url("assets/csv/arrow-next.svg");	
+    background-image: url("../csv/arrow-next.svg");	
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
