@@ -1,0 +1,150 @@
+/* fonts update */
+html, body, p, button {
+font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* BOOTSTRAP OVERRIDE STYLES */
+
+.carousel-caption {
+    text-align:left;
+    top:30%;
+    bottom:unset;
+    padding-top:unset;
+    padding-bottom:unset;
+    
+}
+
+.carousel-caption h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.carousel-caption p {
+    font-size: 1.6rem;
+    font-weight:400;
+    text-shadow: 1px 1px 4px #000000;
+    padding-right:40%;
+
+}
+
+.carousel-caption button.btn{
+ font-size: 1.4rem;
+ color: #0B75A4;
+ font-weight: 500;
+ text-transform: uppercase;
+ padding: 10px 50px;
+ background-color: #E6E6E6;
+ box-shadow: 2px 2px 4px #000;
+} 
+
+.carousel-caption button.btn:hover{
+    background-color: #fff;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("/assets/csv/arrow-prev.svg");
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
+}
+
+.carousel-control-next-icon {
+    background-image: url("/assets/csv/arrow-next.svg");	
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	display: inline-block;
+	width: 3.6rem;
+	height: 3.6rem;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 100% 100%;
+}
+
+/* IUSM SPECIFIC STYLES */
+.iusm-logo-revista-svg {
+    width:250px; 
+    height:100px;
+}
+.iusm-logo {
+    width:250px; 
+    height:100%;
+}
+.iusm-logo-header{
+    width:150px;
+    height:100px;
+}
+.iusm-bg-1 {
+    background-color: #E6E6E6;
+}
+
+.iusm-bg-2 {
+    background-color: #3B4449;
+}
+
+.iusm-bg-3 {
+    background-color: #0B75A4;
+}
+
+.iusm-bg-4 {
+    background-color: #EF8618;
+}
+
+.iusm-divider img{
+    height: 30px;
+    width:100%;
+}
+
+.iusm-a-r {
+text-align:right;
+}
+.iusm-video-home {
+    height:500px;
+}
+.iusm-video {
+    position:absolute;
+    left:-6px;
+    margin-top:-83px;
+    width: calc(100vw/2);
+}
+
+.iusm-testimonial .container{
+    height:500px;
+}
+.iusm-testimonial-img {
+    position: absolute;
+    right:0;
+    height:500px;
+    width: 50%;
+}
+.iusm-testimonial-img img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.iusm-nav {
+    font-size: 1.3rem;
+}
+
+.iusm-cards .col .card{
+    border-radius: 25px;
+}
+.iusm-cards .col .card img{
+    border-radius: 25px 25px 0 0;
+}
+
+.iusm-testimonial button, .iusm-video-home button{
+font-size: 1.2rem;
+ color: #0B75A4;
+ font-weight: 500;
+ text-transform: uppercase;
+ padding: 7px 40px;
+ background-color: #fff;
+}
+.iusm-testimonial button:hover, .iusm-video-home button:hover{
+    color: #fff;
+     background-color: rgba(255, 255, 255, 0.1);
+    }
