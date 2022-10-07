@@ -174,3 +174,58 @@ font-size: 1.2rem;
     color: #fff;
      background-color: rgba(255, 255, 255, 0.1);
  }
+
+ /* TITLE BAR */
+ #iusm-title-bar {
+    background-image: url(/images/hdv/hdv-title.jpg);
+    height: 600px;
+    padding: 0px 10vw;
+ }
+ #iusm-title-bar .divider {
+    width:70%;
+    border-top: 1px solid #fff;
+ }
+ .iusm-article-title, .iusm-section-title, .iusm-article-date{
+    font-family: 'Encode Sans', sans-serif !important;
+ }
+
+ .iusm-section-title {
+    display: table;
+    background-color: #fff;
+    padding: 0px 40px;
+ }
+
+ /* CONTENT */
+
+ .iusm-content {
+    max-width: 70%;
+ }
+ .iusm-content p {
+    text-align: justify !important;
+    font-weight: 300;
+    -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+ }
+
+ .iusm-bio-title {
+    display: table;
+    background-color: #0B75A4;
+    padding: 0px 40px;
+    color:#fff;
+ }
+
+ .iusm-img-divider {
+    height: 300px;
+    padding: 0px 10vw;
+ }
+ .iusm-img-divider h1 {
+    font-family: 'Encode Sans', sans-serif !important;
+    font-size:3rem;
+ }
+ .iusm-hashtag {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #0B75A4;
+    text-align: center;
+ }
