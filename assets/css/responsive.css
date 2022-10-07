@@ -1,0 +1,119 @@
+@media only screen and (max-width: 768px) {
+    html, body {
+      overflow-x:hidden;
+    }
+
+    /* BOOTSTRAP OVERRIDE STYLES */
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+     
+    }
+    .carousel-caption {
+        text-align:left;
+        top:25%;
+        bottom:unset;
+        padding-top:unset;
+        padding-bottom:unset;
+        
+    }
+    
+    .carousel-caption h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        text-shadow: 2px 2px 4px #000000;
+    
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+        font-weight:400;
+        text-shadow: 1px 1px 4px #000000;
+        padding-right:5%;
+    
+    }
+
+    .carousel-caption button.btn{
+        font-size: 1rem;
+        color: #0B75A4;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 5px 20px;
+        background-color: #E6E6E6;
+        box-shadow: 1px 1px 4px #000;
+       } 
+
+    #iusm-header {
+        height:70px;
+    }
+    .iusm-divider img{
+        height: 30px;
+        width:100%;
+    }
+
+    .iusm-logo-revista-svg {
+        width:150px; 
+        height: 70px;
+    }
+    .iusm-logo-header{
+        width:100px;
+        height:70px;
+    }
+    .iusm-logo {
+        width:180px; 
+        height:100%;
+    }
+
+    #home-slider img {
+        height: calc(100vh - 120px);
+        object-fit: cover;
+    }
+    .iusm-video {
+        position: relative;
+        height: 250px;
+        width:120%;
+        margin: 0 0px 0 -5px;
+        padding: 0 0;
+    }
+    .iusm-video-home {
+        height:auto;
+    }
+    .iusm-a-r .iusm-txt{
+        text-align:justify;
+        max-width:100%;
+        padding: 0px 30px
+
+        }
+
+        .iusm-testimonial .container{
+            height:auto;
+           
+        }
+        .iusm-testimonial-img {
+            position:relative;
+            
+            margin-bottom:0;
+            height:100%;
+            
+        }
+        .iusm-testimonial-img img{
+            width:110vw;
+            margin-left:-20px;
+        }
+
+        .iusm-a-l .iusm-txt{
+            text-align:justify;
+            max-width:100%;
+            padding: 0px 30px;
+            margin-right:0px;
+            }
+        .info {
+            margin: 0 25px;
+        } 
+        
+        .info p{
+            margin-top:25px;
+        }
+        
+
+}

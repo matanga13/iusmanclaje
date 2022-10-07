@@ -64,18 +64,22 @@ h1 {
 }
 
 /* IUSM SPECIFIC STYLES */
+#iusm-header {
+    height:100px;
+}
 .iusm-logo-revista-svg {
     width:250px; 
+    height:100px;
+}
+.iusm-logo-header{
+    width:150px;
     height:100px;
 }
 .iusm-logo {
     width:250px; 
     height:100%;
 }
-.iusm-logo-header{
-    width:150px;
-    height:100px;
-}
+
 /* Background colors */
 .iusm-bg-1 {
     background-color: #E6E6E6;
@@ -103,24 +107,32 @@ h1 {
     width:100%;
 }
 
-.iusm-a-r {
+.iusm-a-r .iusm-txt{
 text-align:right;
+max-width:85%;
 }
+.iusm-a-l .iusm-txt{
+    text-align:left;
+    max-width:85%;
+    }
+
 .iusm-video-home {
     height:500px;
 }
 .iusm-video {
     position:absolute;
-    left:-6px;
-    margin-top:-83px;
+    left:-7px;
+    margin-top:-104px;
     width: calc(100vw/2);
+    height: 500px;
 }
 
 .iusm-testimonial .container{
     height:500px;
 }
 .iusm-testimonial-img {
-    position: absolute;
+    position:absolute;
+    margin-bottom: -41px;
     right:0;
     height:500px;
     width: 50%;
@@ -161,4 +173,4 @@ font-size: 1.2rem;
 .iusm-testimonial button:hover, .iusm-video-home button:hover{
     color: #fff;
      background-color: rgba(255, 255, 255, 0.1);
-    }
+ }
