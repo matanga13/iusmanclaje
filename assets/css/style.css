@@ -162,7 +162,7 @@ max-width:85%;
     transition: 0.3s ease-in-out;
 }
 
-.iusm-testimonial button, .iusm-video-home button{
+.iusm-testimonial .iusm-button, .iusm-video-home .iusm-button{
 font-size: 1.2rem;
  color: #0B75A4;
  font-weight: 500;
@@ -170,7 +170,7 @@ font-size: 1.2rem;
  padding: 7px 40px;
  background-color: #fff;
 }
-.iusm-testimonial button:hover, .iusm-video-home button:hover{
+.iusm-testimonial .iusm-button:hover, .iusm-video-home .iusm-button:hover{
     color: #fff;
      background-color: rgba(255, 255, 255, 0.1);
  }
