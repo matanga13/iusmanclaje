@@ -239,3 +239,26 @@ font-size: 1.2rem;
     color: #0B75A4;
     text-align: center;
  }
+
+ /* RELATED CARDS */
+
+ .iusm-related-cards .iusm-related-title {
+    height: 20px;
+    width:100%;
+ }
+
+ .iusm-related-cards .col .card{
+    border: 0px;
+    transition: 0.3s ease-in-out;
+ }
+ .iusm-related-cards .card-body {
+    background-color:#0B75A4;
+    color:#fff;
+    padding-left:0;
+    padding-bottom:0px;
+    border-bottom: solid 1px #fff;
+ }
+ .iusm-related-cards .col .card:hover{
+    transform: scale(1.05, 1.05);
+    transition: 0.3s ease-in-out;
+ }
