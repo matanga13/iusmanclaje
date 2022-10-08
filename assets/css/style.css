@@ -199,6 +199,17 @@ font-size: 1.2rem;
  .iusm-content {
     max-width: 70%;
  }
+ .iusm-content .iusm-button {
+    color:#fff;
+    border: 1px solid #000;
+    
+    background-color: #0B75A4;
+    padding: 10px 40px;
+ }
+ .iusm-content .iusm-button:hover {
+   color: #0B75A4; 
+    background-color: rgba(59, 68, 73, 0.1);
+ }
  .iusm-content p {
     text-align: justify !important;
     font-weight: 300;
