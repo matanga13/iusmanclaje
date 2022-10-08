@@ -245,6 +245,11 @@ font-size: 1.2rem;
  .iusm-related-cards .iusm-related-title {
     height: 20px;
     width:100%;
+    background-image: url('/assets/csv/related-title.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 25px;
  }
 
  .iusm-related-cards .col .card{

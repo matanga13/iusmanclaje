@@ -174,5 +174,14 @@ font-size: 1.6rem;
     font-size:2rem;
     text-align: center;
  }  
+ .iusm-related-cards .iusm-related-title {
+    height: 18px;
+    width:100%;
+    background-image: url("/assets/csv/related-title-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 25px;
+}
 
 }
