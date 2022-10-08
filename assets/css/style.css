@@ -63,6 +63,16 @@ h1 {
 	background-size: 100% 100%;
 }
 
+.dropdown-menu {
+    margin-top:7px!important;
+}
+.dropdown-menu-dark {
+    background-color: #3B4449;
+    border-radius: 0;
+    border: 0;
+    
+}
+
 /* IUSM SPECIFIC STYLES */
 #iusm-header {
     height:100px;
@@ -183,6 +193,7 @@ font-size: 1.2rem;
  #iusm-title-bar .divider {
     width:70%;
     border-top: 1px solid #fff;
+    color:transparent;
  }
  .iusm-article-title, .iusm-section-title, .iusm-article-date{
     font-family: 'Encode Sans', sans-serif !important;

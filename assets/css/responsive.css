@@ -123,7 +123,9 @@
  #iusm-title-bar .divider {
     width:70%;
     border-top: 1px solid #fff;
+    color:transparent;
     margin-top:25px;
+
  }
  .iusm-article-title, .iusm-section-title, .iusm-article-date{
     font-family: 'Encode Sans', sans-serif !important;
