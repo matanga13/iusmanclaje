@@ -131,12 +131,16 @@ max-width:85%;
 }
 .iusm-video {
     position:absolute;
-    left:-7px;
-    margin-top:-104px;
+    left:0px;
+    margin-top:-103px;
     width: calc(100vw/2);
     height: 500px;
 }
-
+.iusm-testimonial { 
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: 50vw;
+}
 .iusm-testimonial .container{
     height:500px;
 }
@@ -155,6 +159,9 @@ max-width:85%;
 
 .iusm-nav {
     font-size: 1.3rem;
+}
+.iusm-nav:active {
+    color:red;
 }
 
 /* CARDS Custom Styles */

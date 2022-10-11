@@ -89,22 +89,17 @@
             height:auto;
            
         }
-        .iusm-testimonial-img {
-            position:relative;
-            
-            margin-bottom:0;
-            height:100%;
-            
-        }
-        .iusm-testimonial-img img{
-            width:110vw;
-            margin-left:-20px;
-        }
+        .iusm-testimonial { 
+            background-position:top;
+            background-repeat: no-repeat;
+            background-size: 100vw;
 
+        }
+       
         .iusm-a-l .iusm-txt{
             text-align:justify;
             max-width:100%;
-            padding: 0px 30px;
+            padding: 250px 30px 0px 30px;
             margin-right:0px;
             }
         .info {
