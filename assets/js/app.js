@@ -2,8 +2,12 @@
 Inclusión de componentes por Vanilla JS. 
 Optimizar para PHP
 */
+ const URL = 'http://127.0.0.1:5500/';
+// const PATH = '/iusm/'
+// const URL = window.location.protocol +"//"+ window.location.host + PATH;
+// console.log(URL);
 
-fetch("./components/header.html")
+fetch(URL + "/components/header.html")
   .then(response => {
     return response.text()
   })
@@ -12,7 +16,7 @@ fetch("./components/header.html")
     document.querySelector("header").innerHTML = data;
   });
 
-  fetch("./components/footer.html")
+  fetch(URL +"/components/footer.html")
   .then(response => {
     return response.text()
   })
@@ -21,7 +25,7 @@ fetch("./components/header.html")
     document.querySelector("footer").innerHTML = data;
   });
 
-  fetch("./components/nav-bar.html")
+  fetch(URL +"/components/nav-bar.html")
   .then(response => {
     return response.text()
   })
@@ -30,7 +34,7 @@ fetch("./components/header.html")
     document.querySelector("nav").innerHTML = data;
   });
 
-  fetch("./components/related.html")
+  fetch(URL +"/components/related.html")
   .then(response => {
     return response.text()
   })

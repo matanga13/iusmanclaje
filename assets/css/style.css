@@ -131,9 +131,9 @@ max-width:85%;
 }
 .iusm-video {
     position:absolute;
-    left:0px;
+    right:50vw;
     margin-top:-103px;
-    width: calc(100vw/2);
+    width: calc(98vw/2);
     height: 500px;
 }
 .iusm-testimonial { 

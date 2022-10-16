@@ -1,0 +1,1 @@
+document.head.innerHTML = document.head.innerHTML + "<base href='http://127.0.0.1:5500/' />";
