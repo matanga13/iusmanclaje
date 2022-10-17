@@ -1,1 +1,2 @@
-document.head.innerHTML = document.head.innerHTML + "<base href='http://127.0.0.1:5500/' />";
+//const PATH = window.location.protocol +"//"+ window.location.host;
+document.head.innerHTML = document.head.innerHTML + "<base href='https://3241.com.ar/iusm/' />";

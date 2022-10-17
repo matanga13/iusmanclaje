@@ -2,10 +2,10 @@
 Inclusión de componentes por Vanilla JS. 
 Optimizar para PHP
 */
- const URL = 'http://127.0.0.1:5500/';
-// const PATH = '/iusm/'
-// const URL = window.location.protocol +"//"+ window.location.host + PATH;
-// console.log(URL);
+ const URL = 'https://3241.com.ar/iusm';
+//const PATH = '/iusm/'
+//const URL = window.location.protocol +"//"+ window.location.host + PATH;
+console.log(URL);
 
 fetch(URL + "/components/header.html")
   .then(response => {

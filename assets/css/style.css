@@ -16,6 +16,9 @@ h1 {
     padding-bottom:unset;
     
 }
+.carousel-item img {
+    filter: brightness(0.7);
+}
 
 .carousel-caption h1 {
     font-size: 4rem;
@@ -31,7 +34,7 @@ h1 {
 
 }
 
-.carousel-caption button.btn{
+.carousel-caption a.btn{
  font-size: 1.4rem;
  color: #0B75A4;
  font-weight: 500;
@@ -41,7 +44,7 @@ h1 {
  box-shadow: 2px 2px 4px #000;
 } 
 
-.carousel-caption button.btn:hover{
+.carousel-caption a.btn:hover{
     background-color: #fff;
 }
 
@@ -139,7 +142,7 @@ max-width:85%;
 .iusm-testimonial { 
     background-position:right;
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: 50%;
 }
 .iusm-testimonial .container{
     height:500px;
