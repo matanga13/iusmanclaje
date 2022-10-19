@@ -168,8 +168,8 @@ max-width:85%;
 }
 
 /* CARDS Custom Styles */
-.iusm-cards .col .card{
-    border-radius: 25px;
+.iusm-cards .col-md-6 .card{
+    /*border-radius: 25px;*/
     transition: 0.3s ease-in-out;
 }
 .iusm-cards .col .card img{
@@ -177,7 +177,7 @@ max-width:85%;
     
 }
 
-.iusm-cards .col .card:hover {
+.iusm-cards .col-md-6 .card:hover {
     transform: scale(1.05, 1.05);
     transition: 0.3s ease-in-out;
 }
