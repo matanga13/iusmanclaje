@@ -180,5 +180,8 @@ font-size: 1.6rem;
     background-size: auto;
     margin-top: 25px;
 }
-
+.iusm-col-right {
+    max-width:100% ; 
+    margin-right: 0;
+}
 }

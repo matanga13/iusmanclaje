@@ -4,7 +4,7 @@ Optimizar para PHP
 */
  //const URL = 'https://3241.com.ar/iusm';
 //const PATH = '/iusm/'
-const URL = window.location.protocol +"//"+ window.location.host+"/iusmanclaje";
+const URL = window.location.protocol +"//"+ window.location.host;
 console.log(URL);
 
 fetch(URL + "/components/header.html")
@@ -42,6 +42,15 @@ fetch(URL + "/components/header.html")
     
     if (document.querySelector("#related")){document.querySelector("#related").innerHTML = data};
   });
+
+  // fetch(URL +"/components/related-milla200.html")
+  // .then(response => {
+  //   return response.text()
+  // })
+  // .then(data => {
+    
+  //   if (document.querySelector("#related-milla")){document.querySelector("#related-milla").innerHTML = data};
+  // });
 
   // /*
   //   VISITED LINKS
